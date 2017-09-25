@@ -1,0 +1,281 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AIPH	memwatch.c	2152;"	d	file:
+ASSERT	memwatch.h	556;"	d
+ASSERT	memwatch.h	594;"	d
+CHECK	memwatch.h	583;"	d
+CHECK	memwatch.h	643;"	d
+CHECK_BUFFER	memwatch.h	585;"	d
+CHECK_BUFFER	memwatch.h	645;"	d
+CHECK_THIS	memwatch.h	584;"	d
+CHECK_THIS	memwatch.h	644;"	d
+CHKVAL	memwatch.c	140;"	d	file:
+COMMIT	memwatch.c	151;"	d	file:
+COMMIT	memwatch.c	153;"	d	file:
+CPPTEXT	memwatch.c	157;"	d	file:
+CPPTEXT	memwatch.c	159;"	d	file:
+FLUSH	memwatch.c	141;"	d	file:
+MARK	memwatch.h	586;"	d
+MARK	memwatch.h	646;"	d
+MEMWATCH_NOCPP	memwatch.c	100;"	d	file:
+MEMWATCH_STDIO	memwatch.c	103;"	d	file:
+MW_ARI_ABORT	memwatch.h	349;"	d
+MW_ARI_IGNORE	memwatch.h	351;"	d
+MW_ARI_NULLREAD	memwatch.h	348;"	d
+MW_ARI_RETRY	memwatch.h	350;"	d
+MW_FREE_LIST	memwatch.h	379;"	d
+MW_HAVE_MUTEX	memwatch.c	125;"	d	file:
+MW_HAVE_MUTEX	memwatch.c	130;"	d	file:
+MW_MUTEX_INIT	memwatch.c	169;"	d	file:
+MW_MUTEX_INIT	memwatch.c	174;"	d	file:
+MW_MUTEX_LOCK	memwatch.c	171;"	d	file:
+MW_MUTEX_LOCK	memwatch.c	176;"	d	file:
+MW_MUTEX_TERM	memwatch.c	170;"	d	file:
+MW_MUTEX_TERM	memwatch.c	175;"	d	file:
+MW_MUTEX_UNLOCK	memwatch.c	172;"	d	file:
+MW_MUTEX_UNLOCK	memwatch.c	177;"	d	file:
+MW_NML	memwatch.c	148;"	d	file:
+MW_NML_ALL	memwatch.h	365;"	d
+MW_NML_DEFAULT	memwatch.h	366;"	d
+MW_NML_FREE	memwatch.h	364;"	d
+MW_NML_NONE	memwatch.h	363;"	d
+MW_SAFEADDR	memwatch.c	2380;"	d	file:
+MW_SAFEADDR	memwatch.c	2402;"	d	file:
+MW_STAT_DEFAULT	memwatch.h	371;"	d
+MW_STAT_GLOBAL	memwatch.h	368;"	d
+MW_STAT_LINE	memwatch.h	370;"	d
+MW_STAT_MODULE	memwatch.h	369;"	d
+MW_TEST_ALL	memwatch.h	358;"	d
+MW_TEST_ALLOC	memwatch.h	360;"	d
+MW_TEST_CHAIN	memwatch.h	359;"	d
+MW_TEST_NML	memwatch.h	361;"	d
+MW_TRACE_BUFFER	memwatch.h	378;"	d
+MW_VAL_DEL	memwatch.h	354;"	d
+MW_VAL_GRB	memwatch.h	356;"	d
+MW_VAL_NEW	memwatch.h	353;"	d
+MW_VAL_NML	memwatch.h	355;"	d
+POSTCHK	memwatch.c	144;"	d	file:
+PRECHK	memwatch.c	143;"	d	file:
+TESTS	memwatch.c	142;"	d	file:
+TRACE	memwatch.h	568;"	d
+TRACE	memwatch.h	610;"	d
+UNMARK	memwatch.h	587;"	d
+UNMARK	memwatch.h	647;"	d
+VERIFY	memwatch.h	562;"	d
+VERIFY	memwatch.h	601;"	d
+VERSION	memwatch.c	139;"	d	file:
+WIN32_LEAN_AND_MEAN	memwatch.c	2381;"	d	file:
+__MEMWATCH_C	memwatch.c	97;"	d	file:
+__MEMWATCH_H	memwatch.h	329;"	d
+blob	memwatch.c	/^    char        blob[ 1024 - sizeof(mwGrabData*) - sizeof(int) ];$/;"	m	struct:mwGrabData_	file:
+calloc	memwatch.h	581;"	d
+check	memwatch.c	/^    long        check;  \/* integrity check value *\/$/;"	m	struct:mwData_	file:
+count	memwatch.c	/^    long        count;  \/* action count *\/$/;"	m	struct:mwData_	file:
+curr	memwatch.c	/^    long        curr;   \/* current allocations *\/$/;"	m	struct:mwStat_	file:
+file	memwatch.c	/^    const char* file;   \/* file name where allocated *\/$/;"	m	struct:mwData_	file:
+file	memwatch.c	/^    const char* file;$/;"	m	struct:mwStat_	file:
+flag	memwatch.c	/^    unsigned    flag;   \/* flag word *\/$/;"	m	struct:mwData_	file:
+free	memwatch.h	582;"	d
+host	memwatch.c	/^    void *host;$/;"	m	struct:mwMarker_	file:
+level	memwatch.c	/^    int level;$/;"	m	struct:mwMarker_	file:
+line	memwatch.c	/^    int         line;   \/* line number where allocated *\/$/;"	m	struct:mwData_	file:
+line	memwatch.c	/^    int         line;$/;"	m	struct:mwStat_	file:
+main	test.c	/^int main()$/;"	f
+malloc	memwatch.h	578;"	d
+max	memwatch.c	/^    long        max;    \/* max allocated at one time *\/$/;"	m	struct:mwStat_	file:
+mw16BIT	memwatch.c	199;"	d	file:
+mw32BIT	memwatch.c	206;"	d	file:
+mw64BIT	memwatch.c	195;"	d	file:
+mw64BIT	memwatch.c	203;"	d	file:
+mwARI	memwatch.c	/^static int mwARI( const char *estr ) {$/;"	f	file:
+mwASSERT	memwatch.h	553;"	d
+mwASSERT	memwatch.h	591;"	d
+mwAbort	memwatch.c	/^void mwAbort( void ) {$/;"	f
+mwAllocLimit	memwatch.c	/^static long     mwAllocLimit =  0L;$/;"	v	file:
+mwAriAction	memwatch.c	/^static int      mwAriAction = MW_ARI_ABORT;$/;"	v	file:
+mwAriFunction	memwatch.c	/^static int      (*mwAriFunction)(const char*) = NULL;$/;"	v	file:
+mwAriHandler	memwatch.c	/^int mwAriHandler( const char *estr ) {$/;"	f
+mwAssert	memwatch.c	/^int mwAssert( int exp, const char *exps, const char *fn, int ln ) {$/;"	f
+mwAssert	memwatch.h	639;"	d
+mwAutoCheck	memwatch.c	/^void mwAutoCheck( int onoff ) {$/;"	f
+mwAutoInit	memwatch.c	/^static void mwAutoInit( void )$/;"	f	file:
+mwBUFFER_TO_MW	memwatch.c	145;"	d	file:
+mwBYTE	memwatch.c	/^typedef unsigned char mwBYTE;$/;"	t	file:
+mwBYTE_DEFINED	memwatch.c	190;"	d	file:
+mwBreakOut	memwatch.c	/^void mwBreakOut( const char* cause ) {$/;"	f
+mwCalloc	memwatch.c	/^void* mwCalloc( size_t a, size_t b, const char *file, int line ) {$/;"	f
+mwCalloc	memwatch.h	633;"	d
+mwCalloc_	memwatch.c	/^void* mwCalloc_( size_t a, size_t b ) {$/;"	f
+mwCalloc_	memwatch.h	637;"	d
+mwCheckOF	memwatch.c	/^static int mwCheckOF( const void *p )$/;"	f	file:
+mwCounter	memwatch.c	/^static unsigned long mwCounter = 0L;$/;"	v	file:
+mwDWORD	memwatch.c	/^typedef unsigned int mwDWORD;$/;"	t	file:
+mwDWORD	memwatch.c	/^typedef unsigned long mwDWORD;$/;"	t	file:
+mwDWORD	memwatch.c	/^typedef unsigned short mwDWORD;$/;"	t	file:
+mwDWORD_DEFINED	memwatch.c	223;"	d	file:
+mwDWORD_DEFINED	memwatch.c	230;"	d	file:
+mwDWORD_DEFINED	memwatch.c	237;"	d	file:
+mwData	memwatch.c	/^typedef struct mwData_ mwData;$/;"	t	typeref:struct:mwData_	file:
+mwDataSize	memwatch.c	/^static int		mwDataSize =	0;$/;"	v	file:
+mwData_	memwatch.c	/^struct mwData_ {$/;"	s	file:
+mwDefaultAri	memwatch.h	625;"	d
+mwDefaultOutFunc	memwatch.c	/^static void mwDefaultOutFunc( int c ) {$/;"	f	file:
+mwDoFlush	memwatch.c	/^void mwDoFlush( int onoff ) {$/;"	f
+mwDoFlush	memwatch.h	616;"	d
+mwDrop	memwatch.c	/^unsigned mwDrop( unsigned kb ) {$/;"	f
+mwDrop	memwatch.h	620;"	d
+mwDropAll	memwatch.c	/^static void mwDropAll() {$/;"	f	file:
+mwDrop_	memwatch.c	/^static unsigned mwDrop_( unsigned kb, int type, int silent ) {$/;"	f	file:
+mwDummy	memwatch.c	/^static char mwDummy( char c )$/;"	f	file:
+mwErrors	memwatch.c	/^static long     mwErrors =      0L;$/;"	v	file:
+mwFBI	memwatch.c	/^static int      mwFBI =         0;$/;"	v	file:
+mwFirstMark	memwatch.c	/^static mwMarker* mwFirstMark = NULL;$/;"	v	file:
+mwFlush	memwatch.c	/^static void mwFlush() {$/;"	f	file:
+mwFlushNow	memwatch.c	/^void mwFlushNow( void ) {$/;"	f
+mwFlushR	memwatch.c	/^static int mwFlushR() {$/;"	f	file:
+mwFlushW	memwatch.c	/^static void mwFlushW( int n ) {$/;"	f	file:
+mwFlushing	memwatch.c	/^static int      mwFlushing =    0;$/;"	v	file:
+mwFlushingB1	memwatch.c	/^static int      mwFlushingB1 =  0;$/;"	v	file:
+mwFlushingB2	memwatch.c	/^static int      mwFlushingB2 =  0;$/;"	v	file:
+mwFree	memwatch.c	/^void mwFree( void* p, const char* file, int line ) {$/;"	f
+mwFree	memwatch.h	634;"	d
+mwFreeUp	memwatch.c	/^static size_t mwFreeUp( size_t needed, int urgent ) {$/;"	f	file:
+mwFree_	memwatch.c	/^void mwFree_( void *p ) {$/;"	f
+mwFree_	memwatch.h	638;"	d
+mwGlobalMutex	memwatch.c	/^static mwMutex	mwGlobalMutex;$/;"	v	file:
+mwGrab	memwatch.c	/^unsigned mwGrab( unsigned kb ) {$/;"	f
+mwGrab	memwatch.h	619;"	d
+mwGrabData	memwatch.c	/^typedef struct mwGrabData_ mwGrabData;$/;"	t	typeref:struct:mwGrabData_	file:
+mwGrabData_	memwatch.c	/^struct mwGrabData_ {$/;"	s	file:
+mwGrabList	memwatch.c	/^static mwGrabData* mwGrabList = NULL;$/;"	v	file:
+mwGrabSize	memwatch.c	/^static long     mwGrabSize = 0L;$/;"	v	file:
+mwGrabType	memwatch.c	/^static const char *mwGrabType( int type ) {$/;"	f	file:
+mwGrab_	memwatch.c	/^static unsigned mwGrab_( unsigned kb, int type, int silent ) {$/;"	f	file:
+mwHead	memwatch.c	/^static mwData*  mwHead = 		NULL;$/;"	v	file:
+mwIncErr	memwatch.c	/^static void mwIncErr() {$/;"	f	file:
+mwInfoWritten	memwatch.c	/^static int      mwInfoWritten = 0;$/;"	v	file:
+mwInit	memwatch.c	/^void mwInit( void ) {$/;"	f
+mwInit	memwatch.h	618;"	d
+mwInited	memwatch.c	/^static int      mwInited =      0;$/;"	v	file:
+mwIsHeapOK	memwatch.c	/^static int mwIsHeapOK( mwData *includes_mw ) {$/;"	f	file:
+mwIsOwned	memwatch.c	/^static int mwIsOwned( mwData* mw, const char *file, int line ) {$/;"	f	file:
+mwIsReadAddr	memwatch.c	/^int mwIsReadAddr( const void *p, unsigned len )$/;"	f
+mwIsSafeAddr	memwatch.c	/^int mwIsSafeAddr( void *p, unsigned len )$/;"	f
+mwLFcur	memwatch.c	/^static int      mwLFcur = 0;$/;"	v	file:
+mwLFfile	memwatch.c	/^static const char *mwLFfile[MW_FREE_LIST];$/;"	v	file:
+mwLFline	memwatch.c	/^static int      mwLFline[MW_FREE_LIST];$/;"	v	file:
+mwLastFree	memwatch.c	/^static void *   mwLastFree[MW_FREE_LIST];$/;"	v	file:
+mwLimit	memwatch.c	/^void mwLimit( long lim ) {$/;"	f
+mwLimit	memwatch.h	621;"	d
+mwLog	memwatch.c	/^static FILE*    mwLog =         NULL;$/;"	v	file:
+mwLogB1	memwatch.c	/^static FILE*    mwLogB1 =       NULL;$/;"	v	file:
+mwLogB2	memwatch.c	/^static FILE*    mwLogB2 =       NULL;$/;"	v	file:
+mwLogFile	memwatch.c	/^static void mwLogFile( const char *name ) {$/;"	f	file:
+mwLogR	memwatch.c	/^static FILE *mwLogR() {$/;"	f	file:
+mwLogW	memwatch.c	/^static void mwLogW( FILE *p ) {$/;"	f	file:
+mwMalloc	memwatch.c	/^void* mwMalloc( size_t size, const char* file, int line) {$/;"	f
+mwMalloc	memwatch.h	630;"	d
+mwMalloc_	memwatch.c	/^void* mwMalloc_( size_t size ) {$/;"	f
+mwMalloc_	memwatch.h	635;"	d
+mwMark	memwatch.c	/^void * mwMark( void *p, const char *desc, const char *file, unsigned line ) {$/;"	f
+mwMark	memwatch.h	628;"	d
+mwMarker	memwatch.c	/^typedef struct mwMarker_ mwMarker;$/;"	t	typeref:struct:mwMarker_	file:
+mwMarker_	memwatch.c	/^struct mwMarker_ {$/;"	s	file:
+mwMutex	memwatch.c	/^typedef HANDLE          mwMutex;$/;"	t	file:
+mwMutex	memwatch.c	/^typedef pthread_mutex_t mwMutex;$/;"	t	file:
+mwMutexInit	memwatch.c	/^static void	mwMutexInit( void )$/;"	f	file:
+mwMutexLock	memwatch.c	/^static void	mwMutexLock( void )$/;"	f	file:
+mwMutexTerm	memwatch.c	/^static void	mwMutexTerm( void )$/;"	f	file:
+mwMutexUnlock	memwatch.c	/^static void	mwMutexUnlock( void )$/;"	f	file:
+mwNML	memwatch.c	/^static int      mwNML =         MW_NML_DEFAULT;$/;"	v	file:
+mwNmlCurAlloc	memwatch.c	/^static long     mwNmlCurAlloc = 0L;$/;"	v	file:
+mwNmlNumAlloc	memwatch.c	/^static long     mwNmlNumAlloc = 0L;$/;"	v	file:
+mwNoMansLand	memwatch.c	/^void mwNoMansLand( int level ) {$/;"	f
+mwNomansland	memwatch.h	626;"	d
+mwNumCurAlloc	memwatch.c	/^static long     mwNumCurAlloc = 0L;$/;"	v	file:
+mwOldSIGSEGV	memwatch.c	/^mwSignalHandlerPtr mwOldSIGSEGV = (mwSignalHandlerPtr) 0;$/;"	v
+mwOutFunction	memwatch.c	/^static void     (*mwOutFunction)(int) = NULL;$/;"	v	file:
+mwOverflowZoneSize	memwatch.c	/^static int		mwOverflowZoneSize = mwROUNDALLOC;$/;"	v	file:
+mwOverflowZoneTemplate	memwatch.c	/^static unsigned char mwOverflowZoneTemplate[] = "mEmwAtch";$/;"	v	file:
+mwPrintBuf	memwatch.c	/^static char     mwPrintBuf[MW_TRACE_BUFFER+8];$/;"	v	file:
+mwPuts	memwatch.h	617;"	d
+mwROUNDALLOC	memwatch.c	217;"	d	file:
+mwROUNDALLOC_DEFAULT	memwatch.c	196;"	d	file:
+mwROUNDALLOC_DEFAULT	memwatch.c	200;"	d	file:
+mwROUNDALLOC_DEFAULT	memwatch.c	204;"	d	file:
+mwROUNDALLOC_DEFAULT	memwatch.c	207;"	d	file:
+mwRealloc	memwatch.c	/^void* mwRealloc( void *p, size_t size, const char* file, int line) {$/;"	f
+mwRealloc	memwatch.h	632;"	d
+mwRealloc_	memwatch.c	/^void* mwRealloc_( void *p, size_t size ) {$/;"	f
+mwRealloc_	memwatch.h	636;"	d
+mwRelink	memwatch.c	/^static int mwRelink( mwData* mw, const char* file, int line ) {$/;"	f	file:
+mwSIGSEGV	memwatch.c	/^static void mwSIGSEGV( int n )$/;"	f	file:
+mwSIGSEGVjump	memwatch.c	/^jmp_buf mwSIGSEGVjump;$/;"	v
+mwSTDERR	memwatch.c	163;"	d	file:
+mwSTDERR	memwatch.c	165;"	d	file:
+mwSetAriAction	memwatch.c	/^void mwSetAriAction( int action ) {$/;"	f
+mwSetAriFunc	memwatch.c	/^void mwSetAriFunc( int (*func)(const char *) ) {$/;"	f
+mwSetAriFunc	memwatch.h	624;"	d
+mwSetOutFunc	memwatch.c	/^void mwSetOutFunc( void (*func)(int) ) {$/;"	f
+mwSetOutFunc	memwatch.h	623;"	d
+mwSignalHandlerPtr	memwatch.c	/^typedef void (*mwSignalHandlerPtr)( int );$/;"	t	file:
+mwStat	memwatch.c	/^typedef struct mwStat_ mwStat;$/;"	t	typeref:struct:mwStat_	file:
+mwStatAlloc	memwatch.c	/^static void mwStatAlloc( size_t size, const char* file, int line ) {$/;"	f	file:
+mwStatCurAlloc	memwatch.c	/^static long     mwStatCurAlloc = 0L;$/;"	v	file:
+mwStatFree	memwatch.c	/^static void mwStatFree( size_t size, const char* file, int line ) {$/;"	f	file:
+mwStatGet	memwatch.c	/^static mwStat* mwStatGet( const char *file, int line, int makenew ) {$/;"	f	file:
+mwStatLevel	memwatch.c	/^static int      mwStatLevel =   MW_STAT_DEFAULT;$/;"	v	file:
+mwStatList	memwatch.c	/^static mwStat*  mwStatList = NULL;$/;"	v	file:
+mwStatMaxAlloc	memwatch.c	/^static long     mwStatMaxAlloc = 0L;$/;"	v	file:
+mwStatNumAlloc	memwatch.c	/^static long     mwStatNumAlloc = 0L;$/;"	v	file:
+mwStatReport	memwatch.c	/^static void mwStatReport()$/;"	f	file:
+mwStatTotAlloc	memwatch.c	/^static long     mwStatTotAlloc = 0L;$/;"	v	file:
+mwStat_	memwatch.c	/^struct mwStat_ {$/;"	s	file:
+mwStatistics	memwatch.c	/^void mwStatistics( int level )$/;"	f
+mwStatistics	memwatch.h	627;"	d
+mwStrCmpI	memwatch.c	/^static int mwStrCmpI( const char *s1, const char *s2 ) {$/;"	f	file:
+mwStrdup	memwatch.c	/^char *mwStrdup( const char* str, const char* file, int line ) {$/;"	f
+mwStrdup	memwatch.h	631;"	d
+mwTRACE	memwatch.h	565;"	d
+mwTRACE	memwatch.h	606;"	d
+mwTail	memwatch.c	/^static mwData*  mwTail = 		NULL;$/;"	v	file:
+mwTerm	memwatch.c	/^void mwTerm( void ) {$/;"	f
+mwTest	memwatch.c	/^int mwTest( const char *file, int line, int items ) {$/;"	f
+mwTest	memwatch.h	622;"	d
+mwTestAlways	memwatch.c	/^static int      mwTestAlways =  0;$/;"	v	file:
+mwTestBuf	memwatch.c	/^static int mwTestBuf( mwData* mw, const char* file, int line ) {$/;"	f	file:
+mwTestBuffer	memwatch.c	/^int mwTestBuffer( const char *file, int line, void *p ) {$/;"	f
+mwTestBuffer	memwatch.h	642;"	d
+mwTestFlags	memwatch.c	/^static int      mwTestFlags =   0;$/;"	v	file:
+mwTestMem	memwatch.c	/^static const void * mwTestMem( const void *p, unsigned len, int c ) {$/;"	f	file:
+mwTestNow	memwatch.c	/^static int mwTestNow( const char *file, int line, int always_invoked ) {$/;"	f	file:
+mwTrace	memwatch.c	/^void mwTrace( const char *format, ... ) {$/;"	f
+mwTrace	memwatch.h	641;"	d
+mwUnlink	memwatch.c	/^static void mwUnlink( mwData* mw, const char* file, int line ) {$/;"	f	file:
+mwUnmark	memwatch.c	/^void* mwUnmark( void *p, const char *file, unsigned line ) {$/;"	f
+mwUnmark	memwatch.h	629;"	d
+mwUseAtexit	memwatch.c	/^static int      mwUseAtexit =   0;$/;"	v	file:
+mwUseLimit	memwatch.c	/^static int      mwUseLimit =    0;$/;"	v	file:
+mwVERIFY	memwatch.h	559;"	d
+mwVERIFY	memwatch.h	598;"	d
+mwVerify	memwatch.c	/^int mwVerify( int exp, const char *exps, const char *fn, int ln ) {$/;"	f
+mwVerify	memwatch.h	640;"	d
+mwWrite	memwatch.c	/^static void mwWrite( const char *format, ... ) {$/;"	f	file:
+mwWriteOF	memwatch.c	/^static void mwWriteOF( void *p )$/;"	f	file:
+next	memwatch.c	/^    mwData*     next;   \/* next allocation in chain *\/$/;"	m	struct:mwData_	file:
+next	memwatch.c	/^    mwGrabData* next;$/;"	m	struct:mwGrabData_	file:
+next	memwatch.c	/^    mwMarker *next;$/;"	m	struct:mwMarker_	file:
+next	memwatch.c	/^    mwStat*     next;   \/* next statistic buffer *\/$/;"	m	struct:mwStat_	file:
+num	memwatch.c	/^    long        num;    \/* total number of allocations *\/$/;"	m	struct:mwStat_	file:
+prev	memwatch.c	/^    mwData*     prev;   \/* previous allocation in chain *\/$/;"	m	struct:mwData_	file:
+realloc	memwatch.h	580;"	d
+size	memwatch.c	/^    size_t      size;   \/* size of allocation *\/$/;"	m	struct:mwData_	file:
+strdup	memwatch.h	575;"	d
+strdup	memwatch.h	579;"	d
+text	memwatch.c	/^    char *text;$/;"	m	struct:mwMarker_	file:
+total	memwatch.c	/^    long        total;  \/* total bytes allocated *\/$/;"	m	struct:mwStat_	file:
+type	memwatch.c	/^    int         type;$/;"	m	struct:mwGrabData_	file:
